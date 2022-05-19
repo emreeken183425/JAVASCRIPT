@@ -1,0 +1,1 @@
+ sayfanın consoluna değer atamamıza yarar.
