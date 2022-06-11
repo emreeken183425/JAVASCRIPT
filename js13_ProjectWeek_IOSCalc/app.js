@@ -31,6 +31,28 @@ btnContainer.addEventListener('click', (e) => {
     calculate();
     updateDisplay();
   }
+
+  //? AC butonuna tiklanildi ise
+  if (e.target.classList.contains('ac')) {
+    previousOperand = '';
+    currOperand = '';
+    operation = '';
+    updateDisplay();
+  }
+
+  //? PM butonuna tiklanildi ise
+  if (e.target.classList.contains('pm')) {
+    if (!currOperand) return;
+    currOperand *= -1;
+    updateDisplay();
+  }
+
+  //? Percent butonuna tiklanildi ise
+  if (e.target.classList.contains('percent')) {
+    if (!currOperand) return;
+    currOperand = currOperand / 100;
+    updateDisplay();
+  }
 });
 
 const appendNumber = (num) => {
@@ -54,6 +76,9 @@ const appendNumber = (num) => {
 };
 
 const updateDisplay = () => {
+  if (currOperand.toString().length > 11) {
+    currOperand = Number(currOperand).toExponential(3);
+  }
   currDisp.textContent = currOperand;
   prevDisp.textContent = `${previousOperand} ${operation}`;
 };
