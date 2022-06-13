@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after
+*::before{
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin: 50px auto;
+    max-width: 95%;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.randomNumberWrapper{
+    padding: 20px;
+    text-align: center;
+}
+.randomNumberShow{
+    color: red;
+    display: inline-block;
+    min-width: 100px;
+    background-color: aquamarine;
+    font-weight: 700;
+    font-size: 48px;
+}
+.gameHint{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: gray;
+}
+.form{
+    width: 500px;
+    max-width: 100%;
+    margin: 20px auto;
+    display: flex;
+
+
+
+}
+.inputWrapper{
+flex-grow: 1;
+height: 60px;
+}
+.submitGuess{
+    padding: 1rem;
+    flex-basis: 80px;
+    background-color: pink;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.submitGuess:focus{
+    outline: 2px solid blue;
+}
+.guessInput{
+    flex-shrink: 300px;
+    padding: 1rem;
+
+}
+.lastResult{
+    color: purple;
+    padding:  5px;
+}

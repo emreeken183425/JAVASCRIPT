@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı tahmin oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sayı tahmin oyunu</h1>
+        <div class="randomNumberWrapper">
+            <span class="randomNumberShow" >? </span>    
+        </div>
+
+        <p class="gameHint" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, minus.</p>
+        <form class="form">
+            <label for=""></label>
+            <div class="inputWrapper">
+                <input type="text" id="guessInput" class="guessInput" placeholder="tahmini giriniz"  >
+              <button  type="button" id="submitGuess" class="submitGuess" >GÖNDER</button>
+
+
+            </div>
+        </form>
+        <div class="resultsElements">
+            <p class="guesses" ></p>
+            <p class="lastResult" ></p>
+            <p class="lowOrHi" ></p>
+        </div>
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
