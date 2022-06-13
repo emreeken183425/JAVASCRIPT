@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAHMİN OYUNU</title>
+</head>
+<body>
+
+    <h1>Butonla sayı tahmin oyunu</h1>
+
+    <input type="button" id="başlat" value="oyunu başlat"  >
+    <input type="button" id="tahmin" value="tahmin et" disabled  >
+    <br>
+    <input type="text" id="sayı" placeholder="bir sayı giriniz(1-100)" >
+
+
+    <script>
+        let rsayı,sayaç,hak=4;
+        const başlat=document.querySelector('#başlat');
+        const tahmin=document.querySelector('#tahmin');
+        const sayı=document.querySelector('#sayı');
+
+        başlat.onclick=function(){
+            tahmin.disabled=false;
+            rastgelesayı=Math.round(Math.random()*100);
+            sayaç=0;
+           
+        }
+        tahmin.onclick=function(){
+            sayaç++;
+            if(rsayı!=sayı.value && sayaç>hak ){
+                window.alert("game over");
+                tahmin.disabled=true;
+            }
+            if(rsayı==sayı.value){
+                document.alert("tebrikler")
+            }else if(sayı.value>rsayı){
+               window.alert("azalt")
+            }else {
+               window.alert("arttır")
+            }
+        }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
