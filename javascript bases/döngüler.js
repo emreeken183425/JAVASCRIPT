@@ -13,6 +13,19 @@ while( deger<=10 ){
   
 }
 
+let değer1=1;
+while(değer1<=10){
+    if(değer1==4){
+        değer1++;
+        continue;// i 4 e geldiğinde atlatr devam eder
+    }
+   console.log(değer1+"<br/>");
+    değer1++;
+}
+
+
+
+
 // *******DO WHİLE******
 
 let sonuc=5;
@@ -35,6 +48,23 @@ for(1.parametre,2.parametre,3.parametre  ){
 for(let eken=1; eken<5;eken++ ){
     document.write(eken)
 }
+
+for(let eken1=1;eken1<=10;eken1++ ){
+    if(eken1==5){
+        continue;
+    }
+    console.log(eken1);
+}
+ let listem=["emre","yasemin","emir","eken"]
+ let sonuç;
+ for(sonuç in listem ){
+    if(sonuç==0 ){
+        continue;
+    }
+    console.log(listem[sonuç] );
+ }
+
+
 
 
 
