@@ -37,7 +37,7 @@ header {
 .todo-add {
   width: 90%;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 0.5rem;
 }
 #todo-input {
@@ -52,7 +52,7 @@ header {
 #todo-button {
   width: 20%;
   padding: 0.7rem;
-  background-color: #5d20bf;
+  background-color: #17db62;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
@@ -76,8 +76,8 @@ header {
 }
 
 ul li {
-  background-color: #eee;
-  color: rgb(41, 41, 41);
+  background-color: rgb(47, 213, 235);
+  color: rgb(73, 29, 233);
   font-weight: bold;
   margin-bottom: 1rem;
   display: flex;
