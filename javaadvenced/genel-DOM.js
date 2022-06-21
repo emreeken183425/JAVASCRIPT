@@ -51,3 +51,9 @@ function işlem1(){
      değer2[a].checked= false;
     }
  }
+
+let divim=document.getElementsByTagName('div')[0].innerHTML;
+document.getElementById('iki').innerHTML=divim;
+ 
+let paragraf=document.getElementById('üç').innerHTML="emre eken erzurum";
+
