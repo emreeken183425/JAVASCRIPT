@@ -57,3 +57,16 @@ document.getElementById('iki').innerHTML=divim;
  
 let paragraf=document.getElementById('üç').innerHTML="emre eken erzurum";
 
+// let işlem2=document.documentElement.nodeName;
+// document.write(işlem2);
+function işlem3(){
+    let xyz=document.body.innerHTML;
+    document.write(xyz);
+}
+
+
+let işlem4=document.anchors['clarusway'].innerHTML;
+document.getElementById('emre').innerHTML=işlem4;
+
+var işlem5=document.links.namedItem('clarusway').href ;
+document.getElementById('emre1').innerHTML=işlem5;
