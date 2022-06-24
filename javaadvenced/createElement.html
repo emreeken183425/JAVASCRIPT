@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <button onclick="işlem()" >ekle</button>
+<div id="alan" >
+...
+</div>
+
+
+
+
+
+<script>
+
+
+// body içinde eleman oluşturduk 
+let sonuç=document.createElement('button');
+let metin=document.createTextNode('tıklayınız');
+sonuç.appendChild(metin);
+
+document.body.appendChild(sonuç);
+// body içinde input oluşturduk:
+// let sonuç1=document.createElement('INPUT');
+//document.appendChild(sonuç1);
+
+
+// div alanına ekleme yapalım
+
+
+let sonuç2=document.createElement('DİV');
+let metin1=document.createTextNode('JAVASCRPT EĞİTİMİ');
+sonuç2.appendChild(metin1);
+document.getElementById('alan').appendChild(sonuç2);
+
+function işlem(){
+    let sonuç2=document.createElement('DİV');
+    let metin1=document.createTextNode('JAVASCRPT EĞİTİMİ');
+    sonuç2.appendChild(metin1);
+    document.getElementById('alan').appendChild(sonuç2);
+}
+
+
+
+
+</script>
+    
+</body>
+</html>

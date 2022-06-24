@@ -16,4 +16,10 @@
 
  document.forms;//  belge içerisindeki form taglarını elde etmek için
 
-
+document.plugins;// browserdaki tüm eklentilerin referansını elde etmek için
+document.createAttribute; //belge içerisinde istenilen elemena yeni bir özellik katmak için
+document.setAttributeNode;// createAttribute metodu ile oluşturula özelliği node objectine uygular.
+document.createElement('tagName');// yeni bir html elemanı oluşturur.
+document.createTextNode();// createElement İLE OLUŞTURULUAN html geri döndürür.
+document.appendChild();// bir düğümü eleman içine eklemek için kullanılır.
+document.createComment// belge içerisine açıklama oluşturur.

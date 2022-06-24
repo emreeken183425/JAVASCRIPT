@@ -70,3 +70,6 @@ document.getElementById('emre').innerHTML=işlem4;
 
 var işlem5=document.links.namedItem('clarusway').href ;
 document.getElementById('emre1').innerHTML=işlem5;
+
+let işlem6=document.forms.namedItem("birinciform").innerHTML;
+document.getElementById('sonuçalanı').innerHTML="kopya:"+işlem6;
