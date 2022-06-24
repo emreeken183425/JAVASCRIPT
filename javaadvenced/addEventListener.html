@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    
+<div id="sonucalanı" > </div>
+<head id="başlık" >javascript dersi</head>
+
+<script>
+// addEventListener belgeye event ekleme için kulanılır
+document.addEventListener('mouseover',örnek1 );
+document.addEventListener('click',örnek2);
+document.addEventListener('mouseout',örnek5);
+document.addEventListener('click',örnek4);
+
+
+
+function örnek1(){
+    document.getElementById('sonucalanı').innerHTML+="mouseover oldu ";
+}
+function örnek2(){
+    document.getElementById('sonucalanı').innerHTML+="tıklama oldu ";
+}
+function örnek3(){
+    document.getElementById('sonucalanı').innerHTML+="mouseout oldu ";
+}
+
+function örnek4(){
+    document.body.style.backgroundColor="yellow";
+}
+
+function örnek5(){
+    document.body.style.backgroundColor="red";
+}
+
+
+
+
+</script>
+
+</body>
+</html>
