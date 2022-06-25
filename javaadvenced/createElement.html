@@ -13,11 +13,24 @@
 </div>
 
 
+<div id="demo" >
+    
+    some content
 
+</div>
 
 
 <script>
 
+
+// creating a new paragraph
+let p=document.createElement("p");
+let node=document.createTextNode("some new text");
+// adding the text to the paragraph
+p.appendChild(node);
+let div=document.getElementById('demo');
+//adding the paragraph to the div
+div.appendChild(p);
 
 // body içinde eleman oluşturduk 
 let sonuç=document.createElement('button');
