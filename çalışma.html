@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<h2>emrenin ders tekrarı</h2>
+
+
+<div id="div1" >
+    <p id="p1" >p1</p>
+    <p id="p2" >p2</p>
+    <p id="p3" >emre</p>
+</div>
+
+
+
+<script>
+let başlık=document.createElement("h2")
+let ekleme=document.createTextNode("merhaba emre kolay gelsin")
+başlık.appendChild(ekleme)
+
+let ön=document.getElementById("div1")
+let ekle=document.getElementById("p3")
+
+ön.insertBefore(başlık,ekle)
+
+
+</script>
+
+
+
+</body>
+</html>
