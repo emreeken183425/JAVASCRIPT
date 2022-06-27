@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<a id="bir" href="https://www.google.com/" target="_blank" accesskey="1" >google git </a><span id="bb" ></span> <br>
+<a  id="iki" href="https://lms.clarusway.com/login/index.php" target="_blank" accesskey="2" >claruswaya git</a><span id="cc" ></span>
+<br><br><br>
+<button onclick="örnek()"   >odaklan</button><br>
+<button onclick="örnek1()"  contenteditable="true" >odaktan çık</button><br>
+<a id="eken" href="https://www.google.com/" target="_blank" >google git </a><br>
+<a id="emre" href="https://www.google.com/" target="_blank" >google git </a>
+<br><br>
+<button id="ekle" onclick="örnek2()" >ADD</button>
+<input  id="isim" type="text" placeholder="isminizi giriniz" >
+<br>
+<ul id="listem"  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+
+    <script>
+//accessKey belge içinde html elemanına atanmış değeri elde etmek için
+let değerbir=document.getElementById('bir').accessKey;
+let değeriki=document.getElementById('iki').accessKey;
+
+document.getElementById('bb').innerHTML="kısayol"+değerbir;
+document.getElementById('cc').innerHTML="kısayol"+değeriki;
+
+// focus belge içerisinde html elamnına odaklanmak için
+
+function örnek(){
+document.getElementById('#eken').focus();
+}
+// blur belge içerisinde html elamnına odaktan çıkma için
+function örnek1(){
+document.getElementById('emre').blur();
+
+}
+
+function örnek2(){
+    let ekleme=document.getElementById('isim').innerHTML;
+    document.getElementById('listem').innerHTML += ekleme;
+}
+
+
+    </script>
+</body>
+</html>

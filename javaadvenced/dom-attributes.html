@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<button id="genel" name="bir" class="emre" style="" onclick="" >Buton</button>
+<p id="ppp" style="background-color:red " >Lorem, ipsum.</p>
+<div id="sonuç" ></div>
+<div id="sonuç1" ></div>
+<div id="sonuç2" ></div>
+
+
+
+
+
+
+    <script>
+// lenght attributes bize belge içinde html elemanına eklenmiş özelliklerin sayısını geitir
+let işlem=document.getElementById('genel').attributes.length;
+document.getElementById('sonuç').innerHTML=işlem;
+// name attributes ile html elemanına eklenmiş özellik adını elde etmek için kullnaılır
+let işlem1=document.getElementById('genel').attributes[2].name;
+document.getElementById('sonuç1').innerHTML=işlem1;
+
+// value ile html elemanına eklenmiş özellik değerini döndürür
+
+let işlem3=document.getElementById('ppp').attributes[1].value;
+document.getElementById('sonuç2').innerHTML=işlem3;
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
