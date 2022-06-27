@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bir" >emre eken javascript eğitimi</div>
+    <div class="iki" >emre eken javascript eğitimi</div>
+    <div class="uc" >emre eken javascript eğitimi</div>
+    <div class="dort" >emre eken javascript eğitimi</div>
+    <p class="bes" >Lorem ipsum dolor sit amet. </p>
+    <p class="altı" >Lorem ipsum dolor sit amet. </p>
+    <br><br>
+    sonuç:<span id="sonuçalanı" ></span>
+    <br><br>
+    <div id="son" ></div>
+    <br>
+
+    <button onclick="örnek()" >gönder</button>
+    <button onclick="örnek1()" >sil</button>
+    <button onclick="örnek2()" >ekle</button>
+ 
+   <script>
+function örnek(){
+let işlem=document.querySelectorAll('div').length;
+document.getElementById('sonuçalanı').innerHTML+="talep edilen tag adedi:" + işlem;
+
+}
+function örnek1(){
+let işlem=document.querySelectorAll('p').length;
+document.getElementById('sonuçalanı').innerHTML +="talep edilen tag adedi:" + işlem;
+
+}
+
+function örnek2(){
+    document.querySelectorAll('div')[0].style.backgroundColor="yellow";
+    document.querySelectorAll('div')[2].style.color="red";
+    let son=document.querySelectorAll('div')[1].innerHTML;
+    document.getElementById('son').innerHTML=son;
+    document.getElementById('son').style.color="blue";
+}
+
+
+
+    </script>
+</body>
+</html>
