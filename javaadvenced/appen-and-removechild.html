@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="ekle()" >EKLE</button>
+    <button onclick="sil()" >SİL</button>
+
+    <br><br><br>
+    <ul id="bir" >
+        <li>java</li>
+        <li>javascript</li>
+        <li>pyhton</li>
+        <li id="ccc" >css</li>
+        <li>html</li>
+    </ul>
+    <br><br>
+
+    
+
+
+    <script>
+function ekle(){
+let işlem=document.createElement('Lİ');
+let içerik=document.createTextNode('php');
+işlem.appendChild(içerik);
+document.getElementById('bir').appendChild(işlem);
+}
+
+function sil(){
+let işlem1=document.getElementById('bir');
+// işlem1.removeChild(işlem1.childNodes[3]); bu şekilde veya aşağıdaki şekilde silinir
+işlem1.removeChild(document.getElementById('ccc'))
+}
+    </script>
+</body>
+</html>

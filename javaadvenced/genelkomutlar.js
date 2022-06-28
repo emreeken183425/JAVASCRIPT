@@ -23,3 +23,7 @@ document.createElement('tagName');// yeni bir html elemanı oluşturur.
 document.createTextNode();// createElement İLE OLUŞTURULUAN html geri döndürür.
 document.appendChild();// bir düğümü eleman içine eklemek için kullanılır.
 document.createComment// belge içerisine açıklama oluşturur.
+appendChild():// bir belge içine ensonda olacak şekilde eleman ekler
+removeChild(child);//bir belge içindeki elemanı silmek için
+.replaceChild(newChild, oldChild);// bir belge içindeki içerikleri değiştirmek için
+
