@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT</title>
+</head>
+<body>
+    
+<button id="buton" onclick="örnek()" >TIKLA</button>
+<div id="sonuçalanı" ></div>
+<br>
+<p onclick="örnek1()" >paragraf</p>
+<div id="sonuc" ></div>
+<br>
+<div oncontextmenu="örnek2()" >Buraya sağ tıklayınız</div><br>
+<div id="sonuc2" ></div>
+<br>
+<div id="sonuc3" onmouseover="örnek3()"   >javascript eğitimi devam</div><br>
+
+
+
+
+<script>
+    function örnek(){
+        document.getElementById("sonuçalanı").innerHTML="butona tıklandı";
+    }
+    function örnek1(){
+       
+        document.getElementById("sonuc").innerHTML="paragrafa tıklandı"
+        document.getElementById("sonuc").style.backgroundColor="red"
+    }
+    function örnek2(){
+        document.getElementById("sonuc2").innerHTML="sağ tıklandı";
+        document.getElementById("sonuc2").style.color="blue";
+        document.getElementById("sonuc2").style.backgroundColor="pink";
+        document.getElementById("sonuc2").style.fontSize="35px";
+        document.getElementById("sonuc2").style.padding="25px";
+    }
+    function örnek3(){
+        document.getElementById("sonuc3").style.backgroundColor="purple";
+        document.getElementById("sonuc3").style.color="white";
+
+    }
+</script>
+</body>
+</html>
