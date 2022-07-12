@@ -14,10 +14,11 @@
 <button onclick="örnek()" >gönder</button><br><br>
 <a id="baglantı" >bağlantıya git</a>
 
-
-
-
-
+<br><br><br>
+<h2>removeAttribute</h2>
+<button onclick="örnek2()" >BUTTON</button>
+<br>
+<a id="iş" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=g&aqs=chrome.2.69i60j69i57j46i131i199i433i465i512j0i433i512j69i60l4.1080j0j7&sourceid=chrome&ie=UTF-8" target="_blank" >google</a>
 
 <script >
 
@@ -29,6 +30,10 @@ function örnek(){
     let ekleneceközellikiki=document.createAttribute('target');
     ekleneceközellikiki.value="http://www.google.com.tr"
     bağlan.setAttributeNode(ekleneceközellikiki);
+
+}
+function örnek2(){
+   document.getElementById("iş").removeAttribute("href")
 
 }
 
