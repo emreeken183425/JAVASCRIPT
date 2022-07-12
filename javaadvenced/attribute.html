@@ -12,7 +12,7 @@
 <h1>JAVASCRİPT SETATTRİBUTE</h1>
 
 <button onclick="örnek()" >gönder</button><br><br>
-<a id="baglantı"  target="_blank">bağlantıya git</a>
+<a id="baglantı" >bağlantıya git</a>
 
 
 
@@ -26,6 +26,9 @@ function örnek(){
     let ekleneceközellik=document.createAttribute("href");
     ekleneceközellik.value="http://www.google.com.tr";
     bağlan.setAttributeNode(ekleneceközellik);
+    let ekleneceközellikiki=document.createAttribute('target');
+    ekleneceközellikiki.value="http://www.google.com.tr"
+    bağlan.setAttributeNode(ekleneceközellikiki);
 
 }
 
