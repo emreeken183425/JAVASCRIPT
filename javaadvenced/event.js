@@ -32,4 +32,10 @@ function örnek6(){
     document.getElementById('x').innerHTML=xdegeribul;
     document.getElementById('y').innerHTML=ydegeribul;
 }
-
+function örnek7(){
+    let basılan=event.key;
+    document.getElementById('sonuc7').innerHTML+=basılan;
+}
+function örnek8(){
+alert("olay olay")
+}
