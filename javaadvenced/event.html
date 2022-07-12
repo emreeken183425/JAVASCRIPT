@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENT</title>
+    <style>
+        #sonuc6{
+            width: 300px;
+            height: 200px;
+            padding: 1 rem;
+            margin: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid red;
+        }
+    </style>
 </head>
 <body>
     
@@ -17,32 +31,12 @@
 <div oncontextmenu="örnek2()" >Buraya sağ tıklayınız</div><br>
 <div id="sonuc2" ></div>
 <br>
-<div id="sonuc3" onmouseover="örnek3()"   >javascript eğitimi devam</div><br>
+<div id="sonuc3" onmouseover="örnek3()" onmouseout="örnek4()"  >javascript eğitimi devam</div><br>
+<div id="sonuc5" onmousedown="örnek5()"   >javascript eğitimi devam</div><br>
+<div id="sonuc6" onmouseover="örnek6()" onmouseout="örnek4()"  >javascript eğitimi devam</div><br>
+<div>maouseun koordinat değeri X(<span id="x" ></span>) Y(<span id="y" ></span> ) </div>
 
 
-
-
-<script>
-    function örnek(){
-        document.getElementById("sonuçalanı").innerHTML="butona tıklandı";
-    }
-    function örnek1(){
-       
-        document.getElementById("sonuc").innerHTML="paragrafa tıklandı"
-        document.getElementById("sonuc").style.backgroundColor="red"
-    }
-    function örnek2(){
-        document.getElementById("sonuc2").innerHTML="sağ tıklandı";
-        document.getElementById("sonuc2").style.color="blue";
-        document.getElementById("sonuc2").style.backgroundColor="pink";
-        document.getElementById("sonuc2").style.fontSize="35px";
-        document.getElementById("sonuc2").style.padding="25px";
-    }
-    function örnek3(){
-        document.getElementById("sonuc3").style.backgroundColor="purple";
-        document.getElementById("sonuc3").style.color="white";
-
-    }
-</script>
+<script src="event.js"></script>
 </body>
 </html>
