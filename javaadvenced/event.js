@@ -60,3 +60,10 @@ function örnek12(){
   function örnek14(){
     alert("form gönderiliyor")
   }
+  function örnek15(){
+     document.getElementById('sonuc5').innerHTML+="sürükleniyor";
+  }
+  function örnek16(event){
+    let veri=event.type;
+    document.getElementById('son8').innerHTML="event türü:" +veri;
+ }
