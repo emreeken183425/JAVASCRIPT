@@ -57,3 +57,6 @@ function örnek12(){
   function örnek13(){
     alert("lütfen değer giriniz")
   }
+  function örnek14(){
+    alert("form gönderiliyor")
+  }
