@@ -36,6 +36,24 @@ function örnek7(){
     let basılan=event.key;
     document.getElementById('sonuc7').innerHTML+=basılan;
 }
-function örnek8(){
+/* function örnek8(){
 alert("olay olay")
+}*/
+function örnek9(){
+    document.getElementById('input').style.backgroundColor="red";
+    document.getElementById('input').style.color="white";
 }
+function örnek10(){
+    document.getElementById('metin2').innerHTML="odaktan çıkıldı"
+}
+function örnek11(){
+  let veri=  document.getElementById('input2').value;
+  document.getElementById('son').innerHTML +=veri;
+}
+function örnek12(){
+    let veri=  document.getElementById('input3').value;
+    document.getElementById('son1').innerHTML =veri;
+  }
+  function örnek13(){
+    alert("lütfen değer giriniz")
+  }
