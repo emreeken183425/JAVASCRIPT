@@ -13,3 +13,6 @@ function pencereac1(){
     let pencere1=window.open("https://www.google.com/","google","width=1000px,height=750px",true);
     pencere1.opener.document.write("yeni google sayfası açıldı")
     }
+function pencerekapa(){
+    window.close();
+}    
