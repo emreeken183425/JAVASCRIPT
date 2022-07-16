@@ -67,3 +67,43 @@ function örnek12(){
     let veri=event.type;
     document.getElementById('son8').innerHTML="event türü:" +veri;
  }
+
+ /* 
+ onclick Fareyle tıklamayı ifade eder.
+
+ondblclick Fareyle çift tıklamayı ifade eder.
+
+onmouseover Farenin imleciyle üzerine gelmeyi ifade eder.
+
+onmouseout Farenin imlecini üzerinden çekmeyi ifade eder.
+
+onmousedown Fare düğmesine basmayı ifade eder.
+
+onmouseup Fare düğmesini bırakmayı ifade eder.
+
+onload Sayfanın yüklenmesini ifade eder.
+
+onunload Sayfanın kapatılmasını ifade eder.
+
+onchange Form aracının değişmesini ifade eder.
+
+onsubmit Form bilgilerinin gönderilmesini ifade eder.
+
+onreset Form bilgilerinin silinmesini ifade eder.
+
+onselect Form aracının seçilmesini ifade eder.
+
+onblur Form aracının pasif hale geçmesini ifade eder.
+
+onfocus Form aracının aktif hale geçmesini ifade eder.
+
+accesskey İstenen karakterin girilmesini ifade eder.
+
+tabindex Nesnelerin işlem sıralamasını numaralandırır.
+
+onkeydown Tuşun basılmasını ifade eder.
+
+onkeyup Tuşun salınmasını ifade eder.
+
+onfocus Tuşun basılıp salınmasını ifade eder.
+ */
