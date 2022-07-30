@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #alan{
+            width: 200px;
+            padding: 10px;
+            border-left: 50px solid black;
+            border-top: 20px solid palevioletred ;
+        }
+    </style>
+</head>
+<body>
+    
+<div id="alan" >JAVASCRİPT EĞİTİM SETİ</div>
+<br><br>
+<div id="sonuc" ></div>
+
+    <script>
+
+let solkenar=document.getElementById('alan').clientLeft;// sol kenar genişlik değerini elde etmek için kullanılır
+let üstkenar=document.getElementById('alan').clientTop;// üst kenar genişlik değerini elde etmek için kullanılır
+document.getElementById('sonuc').innerHTML="sol kenar genişliği :"+solkenar +"px,  üst kenar genişliği :"+üstkenar+"px";
+
+
+
+
+
+    </script>
+</body>
+</html>

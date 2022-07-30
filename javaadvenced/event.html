@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT</title>
+    <style>
+        #sonuc6{
+            width: 300px;
+            height: 200px;
+            padding: 1 rem;
+            margin: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    
+<button id="buton" onclick="örnek()" >TIKLA</button>
+<div id="sonuçalanı" ></div>
+<br>
+<p onclick="örnek1()" >paragraf</p>
+<div id="sonuc" ></div>
+<br>
+<div oncontextmenu="örnek2()" >Buraya sağ tıklayınız</div><br>
+<div id="sonuc2" ></div>
+<br>
+<div id="sonuc3" onmouseover="örnek3()" onmouseout="örnek4()"  >javascript eğitimi devam</div><br>
+<div id="sonuc5" onmousedown="örnek5()"   >javascript eğitimi devam</div><br>
+<div id="sonuc6" onmouseover="örnek6()" onmouseout="örnek4()"  >javascript eğitimi devam</div><br>
+<div>maouseun koordinat değeri X(<span id="x" ></span>) Y(<span id="y" ></span> ) </div>
+<br>
+<input  id="metin" onkeypress="örnek7()" type="text">
+<div onkeypress="örnek7()" id="sonuc7"  >Klavyeden basılan tuş:</div><br>
+<details id="detail" onclick="örnek8()" ontoggle="örnek8()" >
+    <summary>Burası açılır kapanır alan</summary>
+    <div>javascript</div>
+    <div>python</div>
+    <div>java</div>
+    <div>css</div>
+</details><br>
+<div  id="sonuc8"  >örnek 8 ontoggle:</div><br>
+ADINIZ VE SOYADINIZ:<input  id="input" type="text" onfocus="örnek9()"  ><br>
+oncahange özelliği:<input  id="input2" type="text" onchange="örnek11()" ><br>
+<div id="son" ></div><br><br>
+oncahange özelliği:<input  id="input3" type="text" oninput="örnek12()" ><br>
+<div id="son1" ></div>
+<textarea onblur="örnek10()"  name="metin2" id="metin2" cols="30" rows="10"></textarea><br><br>
+<form action="a" method="get" >
+    ad soyad: <input type="text" name="" id="onvalid" oninvalid="örnek13()"  required>
+    <input type="submit">
+</form>
+arama içeriği: <input type="search" id="arama"  >
+
+<form action="a" method="get" onsubmit="örnek14()"  >
+    ad: <input type="tel" id="ad" >
+    <input type="submit">
+</form>
+
+<span id="xxxxxx" draggable="true" ondrag="örnek15()" >javascript</span><br><br>
+<div id="sonuc5" ></div><br><br>
+<button onclick="örnek16(event)" >TIKLA</button><br>
+<div id="son8"  ></div>
+
+<script src="event.js"></script>
+</body>
+</html>

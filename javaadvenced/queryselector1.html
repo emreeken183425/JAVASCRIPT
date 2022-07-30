@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querysellector</title>
+</head>
+<body>
+
+<div class="bir" >emre eken <span class="eken" >erzurum</span> </div> 
+<div class="iki" >javascript</div>
+<div class="üç" >html</div>
+<div class="dört" >css</div>
+<div class="beş" >react</div>
+<div id="sonuçalanı" ></div>
+<br><br>
+<button onclick="örnek()">işlemi gerçeşleştir</button>
+
+<button onclick="örnek2()" >örnek2</button>
+<button onclick="örnek3()" >örnek3</button>
+<button onclick="örnek4()" >örnek4</button>
+
+
+
+<script>
+//querySelector('selector'); css seçicileri ile belgedeki elemanların refaransını elde etmek için kullanılır
+
+function örnek(){
+document.querySelector('.iki').style.fontSize="35px"
+}
+function örnek2(){
+document.querySelector('div').style.fontSize="35px"// ilk div tagını değiştirir.
+}
+function örnek3(){
+document.querySelector('#sonuçalanı').innerHTML="java";
+document.querySelector('#sonuçalanı').style.color="red"; // atama yaptık
+}
+
+function örnek4(){
+document.querySelector('.bir>.eken').innerHTML="merdiven";
+document.querySelector('.bir>.eken').style.color="red"; // atama yaptık
+}
+
+</script>
+</body>
+</html>
