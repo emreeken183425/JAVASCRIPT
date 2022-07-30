@@ -55,27 +55,3 @@ console.log(tekCift(2));
 function tekCift(number) {
   return number % 2 === 0 ? `${number} çifttir` : `${number} tekdir`;
 }
-
-//? örnekler
-
-function sum(tutar,kdv ){
-  let kdvtutarı=(tutar/100)*kdv;
-  let nettutar=tutar+kdvtutarı;
-  console.log(nettutar +" "+ "net tutar");  
-};
-sum(25,15);
-
-//* yol ve km ye göre kaç dakika sürecek
-function yol(mil,km){
-  let yolum=(mil/40)*60
-  console.log(` yolum ${yolum} dakika sürmektedir  `);
-};
-yol(150,40);
-
-//**********************parantez içinde function otomotik çağırma */
-(function metin(x1,y1){
-  console.log(x1);
-  console.log(y1);
-  console.log(x1+" "+ y1 );
-} )("merhaba","nasılsın")
-
