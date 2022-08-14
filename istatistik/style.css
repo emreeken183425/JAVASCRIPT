@@ -1,0 +1,366 @@
+#alan{
+    width: 100%;
+    height: 544px;
+    margin: 0 auto;
+   text-align: center;
+}
+
+#kapsamaalanı{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    color: white;
+    border: 1px solid black ;
+    margin: 0 auto;
+    
+}
+#tablobaşlık{
+    position: relative;
+    width: 1200px;
+    height: 30px;
+   padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f1fef1;
+    font-weight: bold;
+    border: 1px solid black;
+}
+#isim1{
+    width: 200px;
+    height: 25px;
+    color: white;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik1{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer1{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim2{
+    width: 200px;
+    height: 25px;
+    color: white;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik2{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer2{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim3{
+    width: 200px;
+    height: 25px;
+    color: white;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik3{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer3{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim4{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik4{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer4{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim5{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik5{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer5{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim6{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik6{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer6{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim7{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik7{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer7{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim8{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik8{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer8{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim9{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik9{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer9{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim10{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik10{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer10{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim11{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik11{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer11{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim12{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik12{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer12{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim13{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(107, 104, 89);
+}
+
+#grafik13{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer13{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
+#isim14{
+    width: 200px;
+    height: 25px;
+    float: left; 
+    text-align: left;   
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color:#5dc05d;
+}
+
+#grafik14{
+    width: 0px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
+#değer14{
+    padding-top: 3px;
+    text-align: right;
+    color: wheat;
+    font-size: 14px;
+    background-color: rgb(166, 166, 228);
+}
