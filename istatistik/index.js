@@ -122,3 +122,68 @@ let zaman9=setInterval(function(){
     }
 })
 
+let grafik10alanı=document.getElementById('grafik10');
+let yüzde10=50;
+let hesapla10=100/yüzde10;
+let piksel10=toplamalan/hesapla10;
+let başlangıç10=0;
+let zaman10=setInterval(function(){
+    document.getElementById('değer10').style.width=başlangıç10+"px";
+    başlangıç10=başlangıç10+1;
+    if(başlangıç10>piksel10){
+        document.getElementById('değer10').innerHTML="%"+yüzde10+" ";
+        clearInterval(zaman10);
+    }
+})
+let grafik11alanı=document.getElementById('grafik11');
+let yüzde11=40;
+let hesapla11=100/yüzde11;
+let piksel11=toplamalan/hesapla11;
+let başlangıç11=0;
+let zaman11=setInterval(function(){
+    document.getElementById('değer11').style.width=başlangıç11+"px";
+    başlangıç11=başlangıç11+1;
+    if(başlangıç11>piksel11){
+        document.getElementById('değer11').innerHTML="%"+yüzde11+" ";
+        clearInterval(zaman11);
+    }
+})
+let grafik12alanı=document.getElementById('grafik12');
+let yüzde12=30;
+let hesapla12=100/yüzde12;
+let piksel12=toplamalan/hesapla12;
+let başlangıç12=0;
+let zaman12=setInterval(function(){
+    document.getElementById('değer12').style.width=başlangıç12+"px";
+    başlangıç12=başlangıç12+1;
+    if(başlangıç12>piksel12){
+        document.getElementById('değer12').innerHTML="%"+yüzde12+" ";
+        clearInterval(zaman12);
+    }
+})
+let grafik13alanı=document.getElementById('grafik13');
+let yüzde13=20;
+let hesapla13=100/yüzde13;
+let piksel13=toplamalan/hesapla13;
+let başlangıç13=0;
+let zaman13=setInterval(function(){
+    document.getElementById('değer13').style.width=başlangıç13+"px";
+    başlangıç13=başlangıç13+1;
+    if(başlangıç13>piksel13){
+        document.getElementById('değer13').innerHTML="%"+yüzde13+" ";
+        clearInterval(zaman13);
+    }
+})
+let grafik14alanı=document.getElementById('grafik14');
+let yüzde14=10;
+let hesapla14=100/yüzde14;
+let piksel14=toplamalan/hesapla14;
+let başlangıç14=0;
+let zaman14=setInterval(function(){
+    document.getElementById('değer14').style.width=başlangıç14+"px";
+    başlangıç14=başlangıç14+1;
+    if(başlangıç14>piksel14){
+        document.getElementById('değer14').innerHTML="%"+yüzde14+" ";
+        clearInterval(zaman14);
+    }
+})
