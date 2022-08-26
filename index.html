@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h2>JavaScript Validation</h2>
+
+<form name="myForm"  onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  <br>
+  email: <input id="emre" type="email" name="email">
+  <br>
+  <button id="buton" onclick="örnek()" >TIKLA</button>
+</form>
+<script>
+    function validateForm() {
+      let x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+    }
+    function örnek(){
+   
+       document.getElementById("sonuc").style.backgroundColor="red"
+    }
+    </script>
+</body>
+</html>
